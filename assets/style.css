@@ -7,9 +7,7 @@
 --textblack: #000500;
 }
 
-* {font: 'roboto', serif;
-    }
-
+/* Header and Nav Bar */
 header {
     padding: 2% 0%;
     background-color: var(--pansy);
@@ -17,9 +15,10 @@ header {
 }
 
 header h1 {
-    padding-bottom: 15px;
+    padding-bottom: 30px;
     text-align: center;
     font-size: 2rem;
+    font-family: 'Roboto', sans-serif;
 }
 nav {
     position:absolute;
@@ -54,3 +53,45 @@ nav a:hover{
 
 nav a:active{
     color:var(--pansy)};
+
+/* Section - Avatar and About Me */
+
+body {
+    padding: 50px;
+}
+section {
+    border: 5px solid var(--textblack);
+    padding: 20px 40px 0 40px;
+    max-width: 100%;
+    display:flex;
+}
+
+img {
+    max-width: 600px;
+    margin: 20px 30px 0 0;
+    object-fit: contain;
+    align-self: flex-start;
+}
+
+h2 {
+    flex: 2 1 auto;
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 10px;
+    padding-top: 100px;
+    padding-right: 50px;
+}
+
+.about-me-text {
+    flex: 1 1 auto;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 50px;
+    padding-left: 25px;
+}
+
+figure.avatar{
+    width:auto;
+    height:428px;
+
+}
