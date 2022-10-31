@@ -56,7 +56,7 @@ nav a:hover{
     color:var(--grey);
 }
 
-figure a:hover{
+article figure a:hover{
     -webkit-box-shadow: 0px 0px 39px 17px rgba(112,22,60,1);
     -moz-box-shadow: 0px 0px 39px 17px rgba(112,22,60,1);
     box-shadow: 0px 0px 39px 17px rgba(112,22,60,1);
@@ -160,9 +160,24 @@ aside div {
 }
 
 
-/* img .first-work {
-    max-width: 400px;
-    margin: 20px 30px 0 0;
-    object-fit: contain;
-    align-self: flex-start;
-} */
+/* Footer - Contact Me */
+
+footer {
+    margin-top: 30px;
+    padding: 2% 0%;
+    background-color: var(--pansy);
+    color: var(--mainwhite);
+}
+
+footer h2 {
+    font-size: 2rem;
+    text-align: center;
+    margin-top:-10px;
+    margin-left: 20px;
+}
+
+footer p{
+    text-align: center;
+    padding-bottom: 25px;
+    padding-left: 25px;
+}
