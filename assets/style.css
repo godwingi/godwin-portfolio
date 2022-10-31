@@ -1,0 +1,12 @@
+:root{
+/* colours */
+--mainwhite: #FFFFFA;
+--pansy: #70163C;
+--blue: #2978A0;
+--grey: #818479;
+--textblack: #000500;
+}
+
+* {font: 'roboto', serif;
+    }
+    
