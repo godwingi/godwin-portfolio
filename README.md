@@ -8,6 +8,10 @@ Having a portfolio is important considering that it is an efficient way for empl
 
 Building my own portfolio was pretty challenging. I am still working on understanding positioning in CSS and how the flex property can be used. Media Queries is also something, I realize, I need to work on as well.
 
+Website Link: https://godwingi.github.io/godwin-portfolio/
+
+Repository Link: https://github.com/godwingi/godwin-portfolio
+
 ## Installation
 
 N/A
