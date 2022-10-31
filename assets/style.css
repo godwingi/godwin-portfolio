@@ -9,4 +9,48 @@
 
 * {font: 'roboto', serif;
     }
-    
+
+header {
+    padding: 2% 0%;
+    background-color: var(--pansy);
+    color: var(--mainwhite);
+}
+
+header h1 {
+    padding-bottom: 15px;
+    text-align: center;
+    font-size: 2rem;
+}
+nav {
+    position:absolute;
+    width: 100%;
+    background-color: var(--mainwhite);
+    padding: 1px;
+    border-bottom: 5px solid var(--pansy);
+    text-align: right;
+}
+
+ul li {
+    display: inline-block;
+    margin:2px;
+    padding:10px;
+    border-left: 5px solid var(--pansy);
+    text-decoration: none;
+}
+
+li {
+    text-align: center;
+    font-size: 1.25rem;
+    color: var(--textblack);
+}
+
+nav a:link{
+    text-decoration: none;
+}
+
+nav a:hover{
+    color:var(--grey);
+}
+
+nav a:active{
+    color:var(--pansy)};
