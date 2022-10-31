@@ -141,10 +141,24 @@ figure img.first-work{
    margin-bottom: 10px;
 }
 
+figcaption {
+    margin-bottom: 15px;
+}
+
+span {
+    font-weight: bold;
+}
+
+.sample {
+    margin-top: 10px;
+    margin-bottom: -20px;
+    margin-right: 10px;
+}
 /* Main with placeholder images for other works */
 
 aside {
     padding: 0 0 20px 30px;
+    margin-bottom: 10px;
     max-width: 50%;
     float: right;
 }
@@ -180,4 +194,12 @@ footer p{
     text-align: center;
     padding-bottom: 25px;
     padding-left: 25px;
+}
+
+@media screen and (max-width = 838px) {
+header nav section main img footer {
+        display: flex;
+        flex-wrap: wrap;
+        flex: 1 2 auto;
+    }
 }
