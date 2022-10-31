@@ -17,7 +17,7 @@ header {
 header h1 {
     padding-bottom: 30px;
     text-align: center;
-    font-size: 2rem;
+    font-size: 3rem;
     font-family: 'Roboto', sans-serif;
 }
 nav {
@@ -43,6 +43,11 @@ li {
     color: var(--textblack);
 }
 
+a {
+    color: var(--textblack);
+    text-decoration: none;
+}
+
 nav a:link{
     text-decoration: none;
 }
@@ -58,28 +63,32 @@ nav a:active{
 
 body {
     padding: 50px;
+    background-color: var(--mainwhite);
 }
 section {
     border: 5px solid var(--textblack);
-    padding: 20px 40px 0 40px;
+    padding: 10px 40px;
     max-width: 100%;
     display:flex;
 }
 
-img {
-    max-width: 600px;
-    margin: 20px 30px 0 0;
-    object-fit: contain;
-    align-self: flex-start;
+div {
+    position: relative;
 }
-
-h2 {
+#about-me {
+    position: absolute;
     flex: 2 1 auto;
     font-size: 2rem;
+    margin-top: 30px;
     text-align: center;
-    margin-top: 10px;
-    padding-top: 100px;
-    padding-right: 50px;
+}
+
+figure.avatar{
+    width:auto;
+    display: inline-flex;
+    margin-top: 20px;
+    margin-left: -20px;
+    align-items: center;
 }
 
 .about-me-text {
@@ -88,10 +97,35 @@ h2 {
     text-align: center;
     padding-top: 50px;
     padding-left: 25px;
+
 }
 
-figure.avatar{
-    width:auto;
-    height:428px;
+/* Main - with "My Works" */
+main {
+    border: 5px solid var(--textblack);
+    padding: 20px 40px 0 40px;
+    max-width: 100%;
+    display:flex;
+}
 
+aside {
+    border: 5px solid var(--textblack);
+    padding: 20px 40px 0 40px;
+    max-width: 100%;
+    display:flex;
+}
+
+img {
+    max-width: 200px;
+    margin: 20px 30px 0 0;
+    object-fit: contain;
+    display: flex;
+    flex-flow: row wrap;    
+}
+
+img .first-work {
+    max-width: 400px;
+    margin: 20px 30px 0 0;
+    object-fit: contain;
+    align-self: flex-start;
 }
